@@ -1,0 +1,18 @@
+#showcase {
+  min-height: 400px;
+  background: url(/img/showcase1.jpg) no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  text-align: center;
+  color: #fff;
+  padding: 15px;
+
+  #showcase h1 {
+    margin-top: 55%;
+  }
+}
+
+#break {
+  padding: 25px;
+  background: #403f4c;
+}

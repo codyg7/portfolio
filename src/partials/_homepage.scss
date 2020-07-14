@@ -1,0 +1,108 @@
+#personal-info {
+  width: 75%;
+  height: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #eee;
+  padding: 0 1.5rem;
+  margin: auto;
+  position: relative;
+
+  .portrait {
+    position: absolute;
+    // float: left;
+    min-width: 35rem;
+    max-width: 35rem;
+    height: 30rem;
+    transform: translateX(-8rem);
+    position: relative;
+
+    img {
+      object-fit: cover;
+      display: block;
+      border-radius: 0.8rem;
+    }
+  }
+
+  .personal-info-content {
+    position: relative;
+    float: right;
+    width: 50%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+  }
+
+  .personal-info-title {
+    font-size: 2.5rem;
+    margin: 1.5rem 0 2rem;
+    text-transform: uppercase;
+  }
+
+  .personal-info-text {
+    margin-bottom: 3rem;
+    font-size: 1.4rem;
+  }
+
+  .aboutme--social-icon {
+    color: black;
+    font-size: 1.5em;
+    text-align: center;
+  }
+
+  .aboutme--social {
+    display: block;
+    justify-content: center;
+    padding-top: 25px;
+  }
+}
+
+.favorite-projects-title {
+  text-align: center;
+  font-size: 1.4rem;
+  margin: 1rem 0 1rem;
+}
+
+.container {
+  position: relative;
+  width: 1100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 30px;
+  margin: auto;
+
+  .card {
+    position: relative;
+    max-width: 300px;
+    height: 300px;
+    background: #fff;
+    margin: 30px 10px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 202px rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease-in-out;
+
+    .imgBx {
+      position: absolute;
+      width: 260px;
+      top: -60px;
+      left: 35px;
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+
+      img {
+        max-width: 100%;
+        border-radius: 4px;
+      }
+    }
+    .content {
+      position: relative;
+      padding: 40px 15px;
+      text-align: center;
+      color: #111;
+    }
+  }
+}

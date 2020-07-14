@@ -1,38 +1,201 @@
-.App {
+#showcase {
+  min-height: 400px;
+  background: url(/img/showcase1.jpg) no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  text-align: center;
+  color: #fff;
+  padding: 15px;
+}
+
+#showcase #showcase h1 {
+  margin-top: 55%;
+}
+
+#break {
+  padding: 25px;
+  background: #403f4c;
+}
+
+#personal-info {
+  width: 75%;
+  height: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #eee;
+  padding: 0 1.5rem;
+  margin: auto;
+  position: relative;
+}
+
+#personal-info .portrait {
+  position: absolute;
+  min-width: 35rem;
+  max-width: 35rem;
+  height: 30rem;
+  -webkit-transform: translateX(-8rem);
+          transform: translateX(-8rem);
+  position: relative;
+}
+
+#personal-info .portrait img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: block;
+  border-radius: 0.8rem;
+}
+
+#personal-info .personal-info-content {
+  position: relative;
+  float: right;
+  width: 50%;
+  text-align: center;
+  padding: 50px 30px;
+  overflow: hidden;
+}
+
+#personal-info .personal-info-title {
+  font-size: 2.5rem;
+  margin: 1.5rem 0 2rem;
+  text-transform: uppercase;
+}
+
+#personal-info .personal-info-text {
+  margin-bottom: 3rem;
+  font-size: 1.4rem;
+}
+
+#personal-info .aboutme--social-icon {
+  color: black;
+  font-size: 1.5em;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#personal-info .aboutme--social {
+  display: block;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 25px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.favorite-projects-title {
+  text-align: center;
+  font-size: 1.4rem;
+  margin: 1rem 0 1rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
+  position: relative;
+  width: 1100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 30px;
+  margin: auto;
 }
 
-.App-link {
-  color: #61dafb;
+.container .card {
+  position: relative;
+  max-width: 300px;
+  height: 300px;
+  background: #fff;
+  margin: 30px 10px;
+  padding: 20px 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-shadow: 0 5px 202px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 5px 202px rgba(0, 0, 0, 0.5);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container .card .imgBx {
+  position: absolute;
+  width: 260px;
+  top: -60px;
+  left: 35px;
+  -webkit-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
 }
+
+.container .card .imgBx img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+.container .card .content {
+  position: relative;
+  padding: 40px 15px;
+  text-align: center;
+  color: #111;
+}
+
+#main--footer {
+  text-align: center;
+  background-color: #403f4c;
+  color: #fff;
+  max-width: 100%;
+  padding: 2%;
+}
+
+#main--footer .main--footer--footerpages {
+  display: block;
+  position: absolute;
+  padding-left: 3%;
+  text-decoration: none;
+  list-style: none;
+  text-align: left;
+  color: #fff;
+  line-height: 150%;
+}
+
+#main--footer .main--footer--footerpages .footer--links {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer--copyright {
+  color: #fff;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.footer--social-icon {
+  color: #fff;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.footer--social {
+  display: block;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 25px;
+}
+
+.divider {
+  margin: 0 25px;
+}
+/*# sourceMappingURL=App.css.map */
