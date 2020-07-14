@@ -2,11 +2,11 @@ import React from "react";
 
 const Projectinfo = (props) => {
   return (
-    <div className='card'>
-      <div className='imgBx'>
+    <div className='card-projects'>
+      <div className='imgBx-projects'>
         <img src='img/E-commerce.png' alt=''></img>
       </div>
-      <div className='content'>
+      <div className='content-projects'>
         <h2>{props.ProjectTitle}</h2>
         <p>{props.ProjectDesc}</p>
         <button>github</button>

@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Homepage from "./components/Homepage/Homepage";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer/Footer";
+import Contact from "./components/Contact/Contact";
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
           {/* makes sure it filters out the other pages with / */}
           <Route path='/' exact component={Homepage} />
           <Route path='/projects' component={Projects} />
-          {/* <Route path='/resume' component={Resume} /> */}
+          <Route path='/contact' component={Contact} />
         </Switch>
       </div>
       <Footer />

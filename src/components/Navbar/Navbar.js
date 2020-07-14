@@ -61,6 +61,12 @@ const Navbar = () => {
             Resume
           </a>
         </li>
+        <li>
+          <Link className='nav-links' to='/contact'>
+            {" "}
+            Contact Page{" "}
+          </Link>
+        </li>
       </Nav>
     </header>
   );
