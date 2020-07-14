@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.scss";
 import Navbar from "./components/Navbar/Navbar";
 import Homepage from "./components/Homepage/Homepage";
+import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer/Footer";
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
         <Switch>
           {/* makes sure it filters out the other pages with / */}
           <Route path='/' exact component={Homepage} />
-          {/* <Route path='/projects' component={Projectapge} /> */}
+          <Route path='/projects' component={Projects} />
           {/* <Route path='/resume' component={Resume} /> */}
         </Switch>
       </div>
