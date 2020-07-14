@@ -57,10 +57,9 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link className='nav-links' to='/resume'>
-            {" "}
-            Resume{" "}
-          </Link>
+          <a className='nav-links' href='/Cody-Gilliam-Resume.pdf' download>
+            Resume
+          </a>
         </li>
       </Nav>
     </header>

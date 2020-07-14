@@ -8,13 +8,11 @@
   padding: 0 1.5rem;
   margin: auto;
   position: relative;
+  box-shadow: 0 5px 202px rgba(0, 0, 0, 0.5);
+  border-radius: 0.8rem;
 
   .portrait {
     position: absolute;
-    // float: left;
-    min-width: 35rem;
-    max-width: 35rem;
-    height: 30rem;
     transform: translateX(-8rem);
     position: relative;
 
@@ -28,9 +26,8 @@
   .personal-info-content {
     position: relative;
     float: right;
-    width: 50%;
     text-align: center;
-    padding: 50px 30px;
+    padding: 50px 30px 40px 0px;
     overflow: hidden;
   }
 
@@ -41,7 +38,6 @@
   }
 
   .personal-info-text {
-    margin-bottom: 3rem;
     font-size: 1.4rem;
   }
 
@@ -54,7 +50,6 @@
   .aboutme--social {
     display: block;
     justify-content: center;
-    padding-top: 25px;
   }
 }
 
@@ -91,7 +86,6 @@
       width: 260px;
       top: -60px;
       left: 35px;
-      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
 
       img {
         max-width: 100%;

@@ -33,13 +33,13 @@
   padding: 0 1.5rem;
   margin: auto;
   position: relative;
+  -webkit-box-shadow: 0 5px 202px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 5px 202px rgba(0, 0, 0, 0.5);
+  border-radius: 0.8rem;
 }
 
 #personal-info .portrait {
   position: absolute;
-  min-width: 35rem;
-  max-width: 35rem;
-  height: 30rem;
   -webkit-transform: translateX(-8rem);
           transform: translateX(-8rem);
   position: relative;
@@ -55,9 +55,8 @@
 #personal-info .personal-info-content {
   position: relative;
   float: right;
-  width: 50%;
   text-align: center;
-  padding: 50px 30px;
+  padding: 50px 30px 40px 0px;
   overflow: hidden;
 }
 
@@ -68,7 +67,6 @@
 }
 
 #personal-info .personal-info-text {
-  margin-bottom: 3rem;
   font-size: 1.4rem;
 }
 
@@ -83,7 +81,6 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-top: 25px;
 }
 
 .favorite-projects-title {
@@ -135,8 +132,6 @@
   width: 260px;
   top: -60px;
   left: 35px;
-  -webkit-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
-          box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
 }
 
 .container .card .imgBx img {
