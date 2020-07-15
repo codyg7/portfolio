@@ -30,14 +30,14 @@ const Footer = () => {
           href='https://github.com/codyg7'
           rel='noopener'
         >
-          <i class='fab fa-github'></i>
+          <i className='fab fa-github'></i>
         </a>
         <a
           className='footer--social-icon divider'
           href='mailto:gilliamcody71@gmail.com'
           rel='noopener'
         >
-          <i class='fas fa-envelope'></i>
+          <i className='fas fa-envelope'></i>
         </a>
         <a
           className='footer--social-icon'

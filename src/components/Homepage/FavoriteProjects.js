@@ -11,8 +11,8 @@ const FavoriteProjects = (props) => {
               <img src='img/E-commerce.png' alt=''></img>
             </div>
             <div className='content'>
-              <h2>{props.ProjectTitle}</h2>
-              <p>{props.ProjectDesc}</p>
+              <h2>{props.FavoriteProjectTitle}</h2>
+              <p>{props.FavoriteProjectDesc}</p>
               <button>github</button>
               <button>Heoku</button>
             </div>

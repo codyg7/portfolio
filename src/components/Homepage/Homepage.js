@@ -6,8 +6,8 @@ export class Homepage extends Component {
     return (
       <div>
         <FavoriteProjects
-          ProjectTitle='E-commerce'
-          ProjectDesc='Utilizing React to build the client side, Node to send the
+          FavoriteProjectTitle='E-commerce'
+          FavoriteProjectDesc='Utilizing React to build the client side, Node to send the
           cient side information that was put into the Contact form and
           sending it to the Database which was build with Mongo, its
           server built with Express, and deployed onto Heroku'
@@ -15,8 +15,8 @@ export class Homepage extends Component {
           Live=''
         />
         <FavoriteProjects
-          ProjectTitle='E-commerce'
-          ProjectDesc='Utilizing React to build the client side, Node to send the
+          FavoriteProjectTitle='E-commerce'
+          FavoriteProjectDesc='Utilizing React to build the client side, Node to send the
           cient side information that was put into the Contact form and
           sending it to the Database which was build with Mongo, its
           server built with Express, and deployed onto Heroku'
@@ -24,8 +24,8 @@ export class Homepage extends Component {
           Live=''
         />
         <FavoriteProjects
-          ProjectTitle='E-commerce'
-          ProjectDesc='Utilizing React to build the client side, Node to send the
+          FavoriteProjectTitle='E-commerce'
+          FavoriteProjectDesc='Utilizing React to build the client side, Node to send the
           cient side information that was put into the Contact form and
           sending it to the Database which was build with Mongo, its
           server built with Express, and deployed onto Heroku'
