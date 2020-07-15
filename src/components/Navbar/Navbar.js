@@ -1,24 +1,25 @@
 import React from "react";
 import styled from "styled-components";
+import Burger from "./Burger";
 import { Link } from "react-router-dom";
 
-// using style components which is a css in js library basically make a function and grab the tag which allows me to style it
 const Nav = styled.nav`
+  width: 100%;
+  height: 55px;
+  border-bottom: 2px solid #f1f1f1;
+  padding: 0 20px;
+  background-color: #403f4c;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  min-height: 8vh;
-  background-color: #403F4C;
-  font-family: "Poppins", sans-serif;
-  list-style: none
-}
-
-  .logo--img {
-    height: 10%;
-    width: 10%;
-    border-radius: 50%;
-    display: flex;
-    align-content: center;
+  .logo {
+    padding: 15px 0;
+  }
+  @media (max-width: 768px) {
+    width: 94.8%;
+  }
+  @media (max-width: 320px) {
+    width: 87.4%;
   }
 
   a {
@@ -28,47 +29,19 @@ const Nav = styled.nav`
     font-weight: bold;
     font-size: 14px;
     padding: 10px 10px;
-    }
+  }
 `;
 
 const Navbar = () => {
   return (
-    <header>
-      {/* replace the nav tag with the variable */}
-      {/* generated a class to be able to target the specific elements */}
-      <Nav>
-        <div>
-          <Link className='nav-links' to='/'>
-            {" "}
-            Cody Gilliam{" "}
-          </Link>
-        </div>
-        <li>
-          {/* Link is a react router attribute that replaces anchor tag */}
-          <Link className='nav-links' to='/'>
-            {" "}
-            Home{" "}
-          </Link>
-        </li>
-        <li>
-          <Link className='nav-links' to='/projects'>
-            {" "}
-            Projects{" "}
-          </Link>
-        </li>
-        <li>
-          <a className='nav-links' href='/Cody-Gilliam-Resume.pdf' download>
-            Resume
-          </a>
-        </li>
-        <li>
-          <Link className='nav-links' to='/contact'>
-            {" "}
-            Contact Page{" "}
-          </Link>
-        </li>
-      </Nav>
-    </header>
+    <Nav>
+      <div>
+        <Link className='nav-links' to='/'>
+          Cody Gilliam
+        </Link>
+      </div>
+      <Burger />
+    </Nav>
   );
 };
 

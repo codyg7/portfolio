@@ -51,6 +51,42 @@
     display: block;
     justify-content: center;
   }
+
+  @media only screen and (max-width: 320px) {
+    .portrait {
+      position: absolute;
+      width: 200px;
+      top: -50px;
+      left: 170px;
+
+      img {
+        max-width: 100%;
+        border-radius: 4px;
+      }
+
+      .personal-info-content {
+        position: relative;
+        text-align: center;
+        padding-top: 230px;
+        overflow: hidden;
+      }
+    }
+  }
+
+  #personal-info .personal-info-content {
+    position: relative;
+    float: right;
+    text-align: center;
+    /* padding: 50px 30px 40px 0px; */
+    padding-top: 120px;
+    overflow: hidden;
+  }
+
+  #personal-info .personal-info-title {
+    font-size: 2.5rem;
+    margin: 1.5rem 0 2rem;
+    text-transform: uppercase;
+  }
 }
 
 .favorite-projects-title {

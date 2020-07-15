@@ -21,8 +21,8 @@ class Projects extends Component {
           cient side information that was put into the Contact form and
           sending it to the Database which was build with Mongo, its
           server built with Express, and deployed onto Heroku'
-            Github=''
-            Live=''
+            Github='https://github.com/codyg7/E-commerce'
+            Live='https://ecommerce00.herokuapp.com/products'
           />
           <Projectsinfo
             ProjectImg={R2Hhackathon}
@@ -31,8 +31,8 @@ class Projects extends Component {
           cient side information that was put into the Contact form and
           sending it to the Database which was build with Mongo, its
           server built with Express, and deployed onto Heroku'
-            Github=''
-            Live=''
+            Github='https://github.com/codyg7/R2H-Hackathon'
+            Live='https://revival-r2h-hackathon.netlify.app/'
           />
           <Projectsinfo
             ProjectImg={Gateway}
@@ -41,8 +41,8 @@ class Projects extends Component {
           cient side information that was put into the Contact form and
           sending it to the Database which was build with Mongo, its
           server built with Express, and deployed onto Heroku'
-            Github=''
-            Live=''
+            Github='https://github.com/codyg7/GatewayProject'
+            Live='https://gatewayproject-ireland.netlify.app/'
           />
           <Projectsinfo
             ProjectImg={TicTacToe}
@@ -51,8 +51,8 @@ class Projects extends Component {
           cient side information that was put into the Contact form and
           sending it to the Database which was build with Mongo, its
           server built with Express, and deployed onto Heroku'
-            Github=''
-            Live=''
+            Github='https://github.com/codyg7/tic-tac-toe'
+            Live='https://tic-tac-toe-reactapp.netlify.app/'
           />
           <Projectsinfo
             ProjectImg={Navbar}
@@ -61,8 +61,8 @@ class Projects extends Component {
           cient side information that was put into the Contact form and
           sending it to the Database which was build with Mongo, its
           server built with Express, and deployed onto Heroku'
-            Github=''
-            Live=''
+            Github='https://github.com/codyg7/Animated-Navbar'
+            Live='https://responsive-navbar0.netlify.app/'
           />
           <Projectsinfo
             ProjectImg={ToDoList}
@@ -71,8 +71,8 @@ class Projects extends Component {
           cient side information that was put into the Contact form and
           sending it to the Database which was build with Mongo, its
           server built with Express, and deployed onto Heroku'
-            Github=''
-            Live=''
+            Github='https://github.com/codyg7/To-Do-ReactList'
+            Live='https://r2hreact-todo-list.netlify.app/'
           />
           <Projectsinfo
             ProjectImg={Voice}
@@ -81,8 +81,8 @@ class Projects extends Component {
           cient side information that was put into the Contact form and
           sending it to the Database which was build with Mongo, its
           server built with Express, and deployed onto Heroku'
-            Github=''
-            Live=''
+            Github='https://github.com/codyg7/SpeechRecognitionAPI'
+            Live='https://guessinggame-voicerec.netlify.app/'
           />
           <Projectsinfo
             ProjectImg={Gitcards}
@@ -91,8 +91,8 @@ class Projects extends Component {
           cient side information that was put into the Contact form and
           sending it to the Database which was build with Mongo, its
           server built with Express, and deployed onto Heroku'
-            Github=''
-            Live=''
+            Github='https://github.com/codyg7/react-github-cards'
+            Live='https://github-cards0.netlify.app/'
           />
           <Projectsinfo
             ProjectImg='../../../public/img/E-commerce.png'
@@ -101,7 +101,7 @@ class Projects extends Component {
           cient side information that was put into the Contact form and
           sending it to the Database which was build with Mongo, its
           server built with Express, and deployed onto Heroku'
-            Github=''
+            Github='https://github.com/codyg7/Pokemon'
             Live=''
           />
           <Projectsinfo

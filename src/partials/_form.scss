@@ -62,3 +62,12 @@
     background: #2980b9;
   }
 }
+
+@media only screen and (max-width: 320px) {
+  .contact--form {
+    max-width: 300px;
+    margin: auto;
+    padding: 0 10;
+    overflow: hidden;
+  }
+}

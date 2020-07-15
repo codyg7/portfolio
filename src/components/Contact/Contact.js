@@ -100,13 +100,14 @@ export default class Contact extends Component {
               value={this.state.phonenumber}
               onChange={this.handleChange}
             />
-            <input
-              name='password'
+            <textarea
+              name='comment'
+              id='textarea'
               className='contact--form--txt'
-              placeholder='Your Password'
-              value={this.state.password}
+              placeholder='Comments'
+              value={this.state.comment}
               onChange={this.handleChange}
-            />
+            ></textarea>
             <button type='submit' className='contact--form--btn'>
               submit
             </button>

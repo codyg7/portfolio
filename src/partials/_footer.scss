@@ -43,3 +43,31 @@
 .divider {
   margin: 0 25px;
 }
+
+@media only screen and (max-width: 768px) {
+  .main--footer--footerpages {
+    display: block;
+    position: absolute;
+    padding-left: 3%;
+    text-decoration: none;
+    list-style: none;
+    text-align: left;
+    color: #fff;
+    line-height: 150%;
+    margin-top: 45px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .main--footer--footerpages {
+    display: block;
+    position: absolute;
+    padding-left: 3%;
+    text-decoration: none;
+    list-style: none;
+    text-align: left;
+    color: #fff;
+    line-height: 150%;
+    margin-top: 60px;
+  }
+}

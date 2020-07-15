@@ -83,6 +83,40 @@
           justify-content: center;
 }
 
+@media only screen and (max-width: 320px) {
+  #personal-info .portrait {
+    position: absolute;
+    width: 200px;
+    top: -50px;
+    left: 170px;
+  }
+  #personal-info .portrait img {
+    max-width: 100%;
+    border-radius: 4px;
+  }
+  #personal-info .portrait .personal-info-content {
+    position: relative;
+    text-align: center;
+    padding-top: 230px;
+    overflow: hidden;
+  }
+}
+
+#personal-info #personal-info .personal-info-content {
+  position: relative;
+  float: right;
+  text-align: center;
+  /* padding: 50px 30px 40px 0px; */
+  padding-top: 120px;
+  overflow: hidden;
+}
+
+#personal-info #personal-info .personal-info-title {
+  font-size: 2.5rem;
+  margin: 1.5rem 0 2rem;
+  text-transform: uppercase;
+}
+
 .favorite-projects-title {
   text-align: center;
   font-size: 1.4rem;
@@ -192,6 +226,34 @@
 
 .divider {
   margin: 0 25px;
+}
+
+@media only screen and (max-width: 768px) {
+  .main--footer--footerpages {
+    display: block;
+    position: absolute;
+    padding-left: 3%;
+    text-decoration: none;
+    list-style: none;
+    text-align: left;
+    color: #fff;
+    line-height: 150%;
+    margin-top: 45px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .main--footer--footerpages {
+    display: block;
+    position: absolute;
+    padding-left: 3%;
+    text-decoration: none;
+    list-style: none;
+    text-align: left;
+    color: #fff;
+    line-height: 150%;
+    margin-top: 60px;
+  }
 }
 
 .container {
@@ -322,5 +384,14 @@
 
 .contact--form .contact--form--btn:hover {
   background: #2980b9;
+}
+
+@media only screen and (max-width: 320px) {
+  .contact--form {
+    max-width: 300px;
+    margin: auto;
+    padding: 0 10;
+    overflow: hidden;
+  }
 }
 /*# sourceMappingURL=App.css.map */
