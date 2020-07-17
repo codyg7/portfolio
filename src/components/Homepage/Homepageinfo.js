@@ -4,9 +4,7 @@ const Homepageinfo = () => {
   return (
     <div>
       <section id='showcase'>
-        <h1>
-          Hi, my name is Cody Gilliam. I am an aspiring Software Developer.
-        </h1>
+        <h1>Hi, my name is Cody Gilliam.</h1>
         <p></p>
       </section>
       <div id='break'></div>
@@ -71,8 +69,24 @@ const Homepageinfo = () => {
                 it to the Database which was build with Mongo, its server built
                 with Express, and deployed onto Heroku
               </p>
-              <button className='Github-btn'>github</button>
-              <button className='Live-btn'>Heoku</button>
+              <button className='Github-btn'>
+                <a
+                  href='https://github.com/codyg7/E-commerce'
+                  rel='noopener noreferrer'
+                  target='_blank'
+                >
+                  Github
+                </a>
+              </button>
+              <button className='Live-btn'>
+                <a
+                  href='https://ecommerce00.herokuapp.com/products'
+                  rel='noopener noreferrer'
+                  target='_blank'
+                >
+                  Live
+                </a>
+              </button>
             </div>
           </div>
           <div className='card'>
@@ -80,8 +94,31 @@ const Homepageinfo = () => {
               <img src='img/Gateway.png' alt=''></img>
             </div>
             <div className='content'>
-              <h2>E-commerce</h2>
-              <p>Utilizing React, Node, Express, Mongo, Heroku</p>
+              <h2>Gateway Project</h2>
+              <p>
+                Project that was built out of html and css to advertise Ireland.
+                Purpose was for a interview process. Was able to get into the
+                program with this product and was revised to make sure it was
+                semantic
+              </p>
+              <button className='Github-btn'>
+                <a
+                  href='https://github.com/codyg7/GatewayProject'
+                  rel='noopener noreferrer'
+                  target='_blank'
+                >
+                  Github
+                </a>
+              </button>
+              <button className='Live-btn'>
+                <a
+                  href='https://gatewayproject-ireland.netlify.app/'
+                  rel='noopener noreferrer'
+                  target='_blank'
+                >
+                  Live
+                </a>
+              </button>
             </div>
           </div>
           <div className='card'>
@@ -89,8 +126,30 @@ const Homepageinfo = () => {
               <img src='img/R2H-Hackathon.png' alt=''></img>
             </div>
             <div className='content'>
-              <h2>E-commerce</h2>
-              <p>Utilizing React, Node, Express, Mongo, Herokue</p>
+              <h2>Revival Hackathon</h2>
+              <p>
+                hackathon project that was built in a group of a group of 6 and
+                was made with basic html and css. Project was to help promote
+                helping poverish areas find opprotunities
+              </p>
+              <button className='Github-btn'>
+                <a
+                  href='https://github.com/codyg7/R2H-Hackathon'
+                  rel='noopener noreferrer'
+                  target='_blank'
+                >
+                  Github
+                </a>
+              </button>
+              <button className='Live-btn'>
+                <a
+                  href='https://revival-r2h-hackathon.netlify.app/'
+                  rel='noopener noreferrer'
+                  target='_blank'
+                >
+                  Live
+                </a>
+              </button>
             </div>
           </div>
         </div>

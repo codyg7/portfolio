@@ -16,8 +16,13 @@ const Footer = () => {
           </Link>
         </li>
         <li>
-          <Link to='/resume' className='footer--links'>
-            resume
+          <a className='footer--links' href='/Cody-Gilliam-Resume.pdf' download>
+            Resume
+          </a>
+        </li>
+        <li>
+          <Link to='/contact' className='footer--links'>
+            Contact Me
           </Link>
         </li>
       </ul>
