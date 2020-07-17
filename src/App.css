@@ -6,6 +6,15 @@
   text-align: center;
   color: #fff;
   padding: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 #showcase #showcase h1 {
@@ -15,6 +24,7 @@
 #break {
   padding: 25px;
   background: #403f4c;
+  margin-bottom: 15px;
 }
 
 #personal-info {
@@ -68,6 +78,7 @@
 
 #personal-info .personal-info-text {
   font-size: 1.4rem;
+  text-align: left;
 }
 
 #personal-info .aboutme--social-icon {
@@ -81,25 +92,6 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-@media only screen and (max-width: 320px) {
-  #personal-info .portrait {
-    position: absolute;
-    width: 200px;
-    top: -50px;
-    left: 170px;
-  }
-  #personal-info .portrait img {
-    max-width: 100%;
-    border-radius: 4px;
-  }
-  #personal-info .portrait .personal-info-content {
-    position: relative;
-    text-align: center;
-    padding-top: 230px;
-    overflow: hidden;
-  }
 }
 
 #personal-info #personal-info .personal-info-content {
@@ -119,8 +111,16 @@
 
 .favorite-projects-title {
   text-align: center;
-  font-size: 1.4rem;
+  font-size: 2.5rem;
   margin: 1rem 0 1rem;
+  padding-top: 2rem;
+}
+
+.border {
+  width: 100px;
+  height: 10px;
+  background: black;
+  margin: 35px auto;
 }
 
 .container {
@@ -314,15 +314,40 @@
   color: #111;
 }
 
+.container .card-projects .Github-btn {
+  padding: 5px;
+  margin-right: 10px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.container .card-projects .Github-btn a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.container .card-projects .Live-btn {
+  padding: 5px;
+  margin-right: 10px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.container .card-projects .Live-btn a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
 .contact--section {
-  background: url(/img/background.jpg) no-repeat center;
   background-size: cover;
   padding: 40px 0;
 }
 
 .contact--section .contact--section--h1 {
   text-align: center;
-  color: #fff;
+  color: black;
 }
 
 .contact--section .border {
@@ -339,15 +364,22 @@
 }
 
 .contact--form {
+  background: #96adc8;
   max-width: 600px;
   margin: auto;
   padding: 0 10;
   overflow: hidden;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 8px;
+  text-align: center;
+  -webkit-box-shadow: 0 5px 202px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 5px 202px rgba(0, 0, 0, 0.5);
 }
 
 .contact--form .contact--form--txt {
   display: block;
-  width: 100%;
+  width: 93%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: 16px;
@@ -358,6 +390,8 @@
   color: black;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  -webkit-box-shadow: 0 0 20px #000000b3;
+          box-shadow: 0 0 20px #000000b3;
 }
 
 .contact--form .contact--form--txt:focus {
@@ -380,6 +414,7 @@
   cursor: pointer;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  margin: 0px 10px 10px;
 }
 
 .contact--form .contact--form--btn:hover {
@@ -388,7 +423,6 @@
 
 @media only screen and (max-width: 320px) {
   .contact--form {
-    max-width: 300px;
     margin: auto;
     padding: 0 10;
     overflow: hidden;

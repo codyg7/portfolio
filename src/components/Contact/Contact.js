@@ -72,7 +72,7 @@ export default class Contact extends Component {
     return (
       <div>
         <section className='contact--section'>
-          <h1 className='contact--section--h1'>Sign Up</h1>
+          <h1 className='contact--section--h1'>Contact Me</h1>
           <div className='border'></div>
           <form className='contact--form' onSubmit={this.handleSubmit}>
             <input
@@ -92,14 +92,6 @@ export default class Contact extends Component {
               onChange={this.handleChange}
             />
             <div className='error'>{this.state.emailError}</div>
-            <input
-              name='phonenumber'
-              type='tel'
-              className='contact--form--txt'
-              placeholder='Your Phone number'
-              value={this.state.phonenumber}
-              onChange={this.handleChange}
-            />
             <textarea
               name='comment'
               id='textarea'

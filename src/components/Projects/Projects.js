@@ -12,7 +12,7 @@ import Gitcards from "../../img/gitcards.png";
 class Projects extends Component {
   render() {
     return (
-      <div>
+      <div className='body'>
         <div className='container'>
           <Projectsinfo
             ProjectImg={Ecommerce}
@@ -36,7 +36,7 @@ class Projects extends Component {
           />
           <Projectsinfo
             ProjectImg={Gateway}
-            ProjectTitle='E-commerce'
+            ProjectTitle='Gateway Project'
             ProjectDesc='Utilizing React to build the client side, Node to send the
           cient side information that was put into the Contact form and
           sending it to the Database which was build with Mongo, its
@@ -46,7 +46,7 @@ class Projects extends Component {
           />
           <Projectsinfo
             ProjectImg={TicTacToe}
-            ProjectTitle='E-commerce'
+            ProjectTitle='Tic-Tac-Toe'
             ProjectDesc='Utilizing React to build the client side, Node to send the
           cient side information that was put into the Contact form and
           sending it to the Database which was build with Mongo, its
@@ -56,7 +56,7 @@ class Projects extends Component {
           />
           <Projectsinfo
             ProjectImg={Navbar}
-            ProjectTitle='E-commerce'
+            ProjectTitle='Responsive Navigation'
             ProjectDesc='Utilizing React to build the client side, Node to send the
           cient side information that was put into the Contact form and
           sending it to the Database which was build with Mongo, its
@@ -66,7 +66,7 @@ class Projects extends Component {
           />
           <Projectsinfo
             ProjectImg={ToDoList}
-            ProjectTitle='E-commerce'
+            ProjectTitle='To Do List'
             ProjectDesc='Utilizing React to build the client side, Node to send the
           cient side information that was put into the Contact form and
           sending it to the Database which was build with Mongo, its
@@ -76,7 +76,7 @@ class Projects extends Component {
           />
           <Projectsinfo
             ProjectImg={Voice}
-            ProjectTitle='E-commerce'
+            ProjectTitle='Voice Api'
             ProjectDesc='Utilizing React to build the client side, Node to send the
           cient side information that was put into the Contact form and
           sending it to the Database which was build with Mongo, its
@@ -86,7 +86,7 @@ class Projects extends Component {
           />
           <Projectsinfo
             ProjectImg={Gitcards}
-            ProjectTitle='E-commerce'
+            ProjectTitle='Github profile cards'
             ProjectDesc='Utilizing React to build the client side, Node to send the
           cient side information that was put into the Contact form and
           sending it to the Database which was build with Mongo, its
@@ -96,7 +96,7 @@ class Projects extends Component {
           />
           <Projectsinfo
             ProjectImg='../../../public/img/E-commerce.png'
-            ProjectTitle='E-commerce'
+            ProjectTitle='Pokemon'
             ProjectDesc='Utilizing React to build the client side, Node to send the
           cient side information that was put into the Contact form and
           sending it to the Database which was build with Mongo, its

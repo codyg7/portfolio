@@ -50,7 +50,7 @@ const RightNav = ({ open }) => {
       <li>
         <Link className='nav-links' to='/contact'>
           {" "}
-          Contact Page{" "}
+          Contact Me{" "}
         </Link>
       </li>
     </Ul>

@@ -39,6 +39,7 @@
 
   .personal-info-text {
     font-size: 1.4rem;
+    text-align: left;
   }
 
   .aboutme--social-icon {
@@ -52,26 +53,26 @@
     justify-content: center;
   }
 
-  @media only screen and (max-width: 320px) {
-    .portrait {
-      position: absolute;
-      width: 200px;
-      top: -50px;
-      left: 170px;
+  //   @media only screen and (max-width: 320px) {
+  //     .portrait {
+  //       position: absolute;
+  //       width: 200px;
+  //       top: -50px;
+  //       left: 170px;
 
-      img {
-        max-width: 100%;
-        border-radius: 4px;
-      }
+  //       img {
+  //         max-width: 100%;
+  //         border-radius: 4px;
+  //       }
 
-      .personal-info-content {
-        position: relative;
-        text-align: center;
-        padding-top: 230px;
-        overflow: hidden;
-      }
-    }
-  }
+  //       .personal-info-content {
+  //         position: relative;
+  //         text-align: center;
+  //         padding-top: 230px;
+  //         overflow: hidden;
+  //       }
+  //     }
+  //   }
 
   #personal-info .personal-info-content {
     position: relative;
@@ -91,8 +92,16 @@
 
 .favorite-projects-title {
   text-align: center;
-  font-size: 1.4rem;
+  font-size: 2.5rem;
   margin: 1rem 0 1rem;
+  padding-top: 2rem;
+}
+
+.border {
+  width: 100px;
+  height: 10px;
+  background: black;
+  margin: 35px auto;
 }
 
 .container {

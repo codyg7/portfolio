@@ -54,7 +54,47 @@ const Homepageinfo = () => {
         </div>
       </section>
 
-      <FavoriteProjects />
+      {/* <FavoriteProjects /> */}
+      <section className='favorite-projects'>
+        <div className='favorite-projects-title'>My Favorite Projects</div>
+        <div className='border'></div>
+        <div className='container'>
+          <div className='card'>
+            <div className='imgBx'>
+              <img src='img/E-commerce.png' alt=''></img>
+            </div>
+            <div className='content'>
+              <h2>E-commerce</h2>
+              <p>
+                Utilizing React to build the client side, Node to send the cient
+                side information that was put into the Contact form and sending
+                it to the Database which was build with Mongo, its server built
+                with Express, and deployed onto Heroku
+              </p>
+              <button>github</button>
+              <button>Heoku</button>
+            </div>
+          </div>
+          <div className='card'>
+            <div className='imgBx'>
+              <img src='img/Gateway.png' alt=''></img>
+            </div>
+            <div className='content'>
+              <h2>E-commerce</h2>
+              <p>Utilizing React, Node, Express, Mongo, Heroku</p>
+            </div>
+          </div>
+          <div className='card'>
+            <div className='imgBx'>
+              <img src='img/R2H-Hackathon.png' alt=''></img>
+            </div>
+            <div className='content'>
+              <h2>E-commerce</h2>
+              <p>Utilizing React, Node, Express, Mongo, Herokue</p>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 };

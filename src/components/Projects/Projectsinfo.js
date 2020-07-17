@@ -9,12 +9,12 @@ const Projectinfo = (props) => {
       <div className='content-projects'>
         <h2>{props.ProjectTitle}</h2>
         <p>{props.ProjectDesc}</p>
-        <button>
+        <button className='Github-btn'>
           <a href={props.Github} rel='noopener noreferrer' target='_blank'>
-            github
+            Github
           </a>
         </button>
-        <button>
+        <button className='Live-btn'>
           <a href={props.Live} rel='noopener noreferrer' target='_blank'>
             Live
           </a>
