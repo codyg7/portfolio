@@ -12,7 +12,7 @@ const Footer = () => {
         </li>
         <li>
           <Link to='/projects' className='footer--links'>
-            projects
+            Projects
           </Link>
         </li>
         <li>

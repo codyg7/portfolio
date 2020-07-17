@@ -93,14 +93,15 @@
 .favorite-projects-title {
   text-align: center;
   font-size: 2.5rem;
-  margin: 1rem 0 1rem;
+  margin: 1rem 0 2rem;
   padding-top: 2rem;
+  font-weight: bold;
 }
 
 .border {
   width: 100px;
   height: 10px;
-  background: black;
+  background: #96adc8;
   margin: 35px auto;
 }
 
@@ -123,7 +124,7 @@
     padding: 20px 15px;
     display: flex;
     flex-direction: column;
-    box-shadow: 0 5px 202px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
     transition: 0.3s ease-in-out;
 
     .imgBx {
@@ -143,6 +144,10 @@
       padding: 70px 15px;
       text-align: center;
       color: #111;
+
+      h2 {
+        font-weight: 600;
+      }
     }
 
     .Github-btn {

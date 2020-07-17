@@ -8,6 +8,9 @@ import Navbar from "../../img/Navbar.png";
 import ToDoList from "../../img/To-do-list.png";
 import Voice from "../../img/Voice.png";
 import Gitcards from "../../img/gitcards.png";
+import Pokeapi from "../../img/pokeapi.png";
+import NodeApi from "../../img/node.png";
+import TechCrunch from "../../img/TechCrunch.png";
 
 class Projects extends Component {
   render() {
@@ -41,9 +44,16 @@ class Projects extends Component {
           <Projectsinfo
             ProjectImg={TicTacToe}
             ProjectTitle='Tic-Tac-Toe'
-            ProjectDesc='React Tic-Tac-Toe app that was built to help introduce us to react and react (find)'
+            ProjectDesc='React Tic-Tac-Toe app that was built to help introduce us to react and react hooks'
             Github='https://github.com/codyg7/tic-tac-toe'
             Live='https://tic-tac-toe-reactapp.netlify.app/'
+          />
+          <Projectsinfo
+            ProjectImg={TechCrunch}
+            ProjectTitle='E-commerce'
+            ProjectDesc='TechCrunch Redesign project was a group project to redesign the TechCrunch newsletter website was made with React, Express, Node, and Mongodb, my role was primary team lead to divide responsibilities and also to add authentication to the contact page.'
+            Github='https://github.com/E972630a/techcrunch'
+            Live='https://techcrunch-redesign.netlify.app/'
           />
           <Projectsinfo
             ProjectImg={Navbar}
@@ -51,6 +61,12 @@ class Projects extends Component {
             ProjectDesc='Responsive Navigation bar that was built with html and css. Was able to remake a Responsive Navigation bar using react, this portfolio is currently utilizing the react version.'
             Github='https://github.com/codyg7/Animated-Navbar'
             Live='https://responsive-navbar0.netlify.app/'
+          />
+          <Projectsinfo
+            ProjectImg={NodeApi}
+            ProjectTitle='Vanilla Node Server'
+            ProjectDesc='Server built out of vanilla node not utilizing any express utilizing moodule http to do what Expresses job would normally be'
+            Github='https://github.com/codyg7/VanillaNodeServer'
           />
           <Projectsinfo
             ProjectImg={ToDoList}
@@ -74,21 +90,10 @@ class Projects extends Component {
             Live='https://github-cards0.netlify.app/'
           />
           <Projectsinfo
-            ProjectImg='../../../public/img/E-commerce.png'
+            ProjectImg={Pokeapi}
             ProjectTitle='Pokemon'
             ProjectDesc='Built with Node, and Inquirer to take in user information match it with JSON information and log it back out attatched to a string'
             Github='https://github.com/codyg7/Pokemon'
-            Live=''
-          />
-          <Projectsinfo
-            ProjectImg='../../../public/img/E-commerce.png'
-            ProjectTitle='E-commerce'
-            ProjectDesc='Utilizing React to build the client side, Node to send the
-          cient side information that was put into the Contact form and
-          sending it to the Database which was build with Mongo, its
-          server built with Express, and deployed onto Heroku'
-            Github=''
-            Live=''
           />
         </div>
       </div>

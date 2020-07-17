@@ -4,7 +4,7 @@ const Homepageinfo = () => {
   return (
     <div>
       <section id='showcase'>
-        <h1>Hi, my name is Cody Gilliam.</h1>
+        <h1 className='h1'>Welcome to my portfolio!</h1>
         <p></p>
       </section>
       <div id='break'></div>
@@ -51,7 +51,7 @@ const Homepageinfo = () => {
         </div>
       </section>
 
-      <div className='favorite-projects-title'>My Favorite Projects</div>
+      <div className='favorite-projects-title'>Featured Projects</div>
       <div className='border'></div>
 
       {/* <FavoriteProjects /> */}
@@ -132,24 +132,26 @@ const Homepageinfo = () => {
                 was made with basic html and css. Project was to help promote
                 helping poverish areas find opprotunities
               </p>
-              <button className='Github-btn'>
-                <a
-                  href='https://github.com/codyg7/R2H-Hackathon'
-                  rel='noopener noreferrer'
-                  target='_blank'
-                >
-                  Github
-                </a>
-              </button>
-              <button className='Live-btn'>
-                <a
-                  href='https://revival-r2h-hackathon.netlify.app/'
-                  rel='noopener noreferrer'
-                  target='_blank'
-                >
-                  Live
-                </a>
-              </button>
+              <section className='buttons'>
+                <button className='Github-btn'>
+                  <a
+                    href='https://github.com/codyg7/R2H-Hackathon'
+                    rel='noopener noreferrer'
+                    target='_blank'
+                  >
+                    Github
+                  </a>
+                </button>
+                <button className='Live-btn'>
+                  <a
+                    href='https://revival-r2h-hackathon.netlify.app/'
+                    rel='noopener noreferrer'
+                    target='_blank'
+                  >
+                    Live
+                  </a>
+                </button>
+              </section>
             </div>
           </div>
         </div>

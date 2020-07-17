@@ -10,7 +10,7 @@
   .border {
     width: 100px;
     height: 10px;
-    background: black;
+    background: #96adc8;
     margin: 40px auto;
   }
   .error {
@@ -42,7 +42,6 @@
     outline: none;
     color: black;
     transition: 0.5s;
-    box-shadow: 0 0 20px #000000b3;
   }
 
   .contact--form--txt:focus {
