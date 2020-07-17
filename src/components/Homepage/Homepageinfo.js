@@ -1,5 +1,4 @@
 import React from "react";
-import FavoriteProjects from "./FavoriteProjects";
 
 const Homepageinfo = () => {
   return (
@@ -54,10 +53,11 @@ const Homepageinfo = () => {
         </div>
       </section>
 
+      <div className='favorite-projects-title'>My Favorite Projects</div>
+      <div className='border'></div>
+
       {/* <FavoriteProjects /> */}
-      <section className='favorite-projects'>
-        <div className='favorite-projects-title'>My Favorite Projects</div>
-        <div className='border'></div>
+      <section className='favorite-projects' style={{ display: "flex" }}>
         <div className='container'>
           <div className='card'>
             <div className='imgBx'>
@@ -71,8 +71,8 @@ const Homepageinfo = () => {
                 it to the Database which was build with Mongo, its server built
                 with Express, and deployed onto Heroku
               </p>
-              <button>github</button>
-              <button>Heoku</button>
+              <button className='Github-btn'>github</button>
+              <button className='Live-btn'>Heoku</button>
             </div>
           </div>
           <div className='card'>
